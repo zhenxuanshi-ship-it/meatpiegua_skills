@@ -1,0 +1,14 @@
+# Credentials and tokens (contain secrets)
+.zhihu_cookies.json
+.zhihu_browser_profile/
+.wechat_config.json
+.wechat_token.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
