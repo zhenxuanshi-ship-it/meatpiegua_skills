@@ -1,0 +1,13 @@
+interface:
+  display_name: 诗画剧情导演
+  short_description: 以自然对话与动作演绎诗画，锁定人物场景环境并逐镜核验连续性
+  default_prompt: 使用 $poetry-painting-drama 先交付诗画完整研究报告，再做总体策划，确认后写无旁白剧本并建立一致性约束。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
